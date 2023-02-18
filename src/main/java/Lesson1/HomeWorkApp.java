@@ -26,8 +26,7 @@ public class HomeWorkApp {
         if (a >= b)
             System.out.println("a >= b");
 
-        if (a < b)
-            System.out.println("a < b");
+        else System.out.println("a < b");
     }
 
     private static void printColor() {
@@ -39,8 +38,7 @@ public class HomeWorkApp {
         else if (value > 0 && value <= 100)
             System.out.println("Желтый");
 
-        if (value > 100)
-            System.out.println("Зеленый");
+        else System.out.println("Зеленый");
     }
     private static void checkSumSign() {
         int A = 10;
@@ -50,7 +48,6 @@ public class HomeWorkApp {
         if (C >= 0)
             System.out.println("Сумма положительная");
 
-        if (C < 0)
-            System.out.println("Сумма отрицательная");
+        else System.out.println("Сумма отрицательная");
     }
 }
